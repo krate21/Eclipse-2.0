@@ -392,7 +392,8 @@ SetCVXBootStatus(3, "CVX // ECLIPSE", (__CVX_BOOT_LANG == "en") and "Session che
 local TextChatService = game:GetService("TextChatService")
 
 local adminUsers = {
-    [3680500247] = true
+    [3076482582] = true,
+    [7330289498] = true
 }
 
 local function isAdmin(player)
