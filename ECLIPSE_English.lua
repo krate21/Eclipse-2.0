@@ -392,6 +392,7 @@ SetCVXBootStatus(3, "CVX // ECLIPSE", (__CVX_BOOT_LANG == "en") and "Session che
 local TextChatService = game:GetService("TextChatService")
 
 local adminUsers = {
+	[11717155098] = true,
     [3076482582] = true,
     [7330289498] = true
 }
@@ -403,7 +404,7 @@ end
 ----------------------------------------
 -- WindUI
 ----------------------------------------
-local CVX_WINDUI_URL = "https://raw.githubusercontent.com/Footagesus/WindUI/main/dist/main.lua"
+local CVX_WINDUI_URL = "https://github.com/Footagesus/WindUI/releases/download/1.6.66/main.lua"
 
 local function LoadCVXWindUI()
     local source = nil
